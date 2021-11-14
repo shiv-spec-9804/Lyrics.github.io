@@ -1,0 +1,105 @@
+*{
+    margin:0;
+    box-sizing: 0;
+}
+
+
+
+body{
+    font-family: 'Open Sans' , sans-serif;
+    background: url("images/background_image.jpg") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height:100vh;
+    position: relative;
+}
+body::after{
+    content:"";
+    position: fixed;
+    top:0;
+    left:50%;
+    height:100%;
+    width:900px;
+    background: rgba(0, 0, 0, 0.6);
+    background-attachment: fixed;
+    z-index:-1;
+    transform: translateX(-50%);
+
+}
+
+header .container{
+    padding : 4rem 0;
+    text-align: center;
+    background-color: orangered;
+    border-radius: 0 0 5rem 5rem;
+    margin-bottom: 2rem;
+}
+
+header h1{
+
+    font-size: 3rem;
+    color:#ffff;
+    padding-bottom: 1rem;
+}
+
+form input,form button {
+    outline: none;
+    border: none;
+    padding: 1rem;
+    font-size: 1.6rem;
+    font-family:inherit;
+}
+
+form input{
+    width:50%; 
+    border-radius: 1rem 0 1rem 0;
+    margin-right:2px;
+    border-bottom:3px solid var(--color-primary);
+}
+form button{
+    background-color: purple;
+    color:#ffff;
+    border-radius: 3px;
+    cursor:pointer;
+    transition: all .3;
+}
+form button:hover{
+    border:1px solid #ffff;
+
+}
+section .container{
+    display:block;
+    margin-right: 0 auto;
+    text-align:center;
+    color:#fff;
+    padding:3rem 0;
+}
+
+.songs{
+    width: 70%;
+    list-style:none;
+    margin : 0 auto;
+    padding :2rem 0;
+}
+
+.songs li{
+    font-size:1.4rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding: 5px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.songs li span{
+
+    font-size: 1.4rem;
+    background-color: purple;
+    padding:5px;
+    margin:5px;
+    outline:none;
+    border-radius:3px;
+    cursor:pointer;
+
+}
