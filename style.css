@@ -7,13 +7,13 @@
 
 body{
     font-family: 'Open Sans' , sans-serif;
-    background: url("images/background_image.jpg") no-repeat center;
+    background: url("images/stock-photo-wall-copy-space-white-background-green-plants-white-wall-white-tiles-hanging-plant-space-for-copy-wall-tiles-9be79d53-d4a5-4809-9054-133b5d5524ad.jpg") no-repeat center;
     background-size: cover;
     background-attachment: fixed;
     height:100vh;
     position: relative;
 }
-body::after{
+/* body::after{
     content:"";
     position: fixed;
     top:0;
@@ -25,12 +25,12 @@ body::after{
     z-index:-1;
     transform: translateX(-50%);
 
-}
+} */
 
 header .container{
     padding : 4rem 0;
     text-align: center;
-    background-color: orangered;
+    background-color:transparent;
     border-radius: 0 0 5rem 5rem;
     margin-bottom: 2rem;
 }
@@ -38,7 +38,7 @@ header .container{
 header h1{
 
     font-size: 3rem;
-    color:#ffff;
+    color:black;
     padding-bottom: 1rem;
 }
 
@@ -71,7 +71,7 @@ section .container{
     display:block;
     margin-right: 0 auto;
     text-align:center;
-    color:#fff;
+    color:black;
     padding:3rem 0;
 }
 
@@ -103,3 +103,6 @@ section .container{
     cursor:pointer;
 
 }
+
+/* music player */
+
